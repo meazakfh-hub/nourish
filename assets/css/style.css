@@ -149,7 +149,10 @@ html {
   border-bottom: 2px solid var(--white-color);
 }
 .nav-link:hover::before{
-  width: 100%;
+  width: 98%;
+}
+.nav-link.active::before {
+  width: 98%;
 }
 .dropdown-item {
   font-family: "Montserrat", sans-serif;
@@ -187,7 +190,8 @@ html {
   letter-spacing: 1.4px; text-transform: uppercase;
   color: #fff; padding: 10px 18px; */
 }
-.dropdown-menu .dropdown-item:hover { background: rgba(255,255,255,0.12); color: #fff; }
+.dropdown-menu .dropdown-item:hover { background: rgba(255, 255, 255, 0.12);
+  color: #fff; }
 
 /* Hamburger */
 .navbar-toggler { border-color: rgba(255,255,255,0.5); }
@@ -1030,7 +1034,11 @@ pointer-events:none;
 .orderBtn.btn-2:hover {
   border-color: var(--green-dark);
   background: var(--white);
-  color: var(--green-dark);
+  color: var(--green-dark) !important;
+}
+
+.dropdown-item.active, .dropdown-item:active { 
+  background-color: #ffffff38;
 }
 
 /* Juice Page End */

@@ -3,6 +3,37 @@ function loadHTML(id, file) {
     .then(response => response.text())
     .then(data => {
       document.getElementById(id).innerHTML = data;
+
+      // ── Active nav link (runs AFTER header is injected) ──
+      if (id === 'site-header') {
+        const activePage = window.location.pathname;
+
+        document.querySelectorAll('.main-nav .navbar-nav .nav-item:not(.dropdown) .nav-link')
+          .forEach(function (link) {
+            try {
+              const linkPath = new URL(link.href).pathname;
+              // normalize trailing slash difference e.g. /remedy vs /remedy.html
+              if (linkPath === activePage) {
+                link.classList.add('active');
+              }
+            } catch (e) { /* skip bad hrefs */ }
+          });
+
+        // Also highlight parent nav-item if a dropdown-item matches
+        document.querySelectorAll('.main-nav .dropdown-menu .dropdown-item')
+          .forEach(function (item) {
+            try {
+              const itemPath = new URL(item.href).pathname;
+              if (itemPath === activePage) {
+                item.classList.add('active');
+                // highlight the parent dropdown toggle too
+                item.closest('.nav-item.dropdown')
+                    .querySelector('.nav-link')
+                    .classList.add('active');
+              }
+            } catch (e) { /* skip */ }
+          });
+      }
     });
 }
 
@@ -11,7 +42,6 @@ loadHTML("footer", "footer.html");
 
 
 /* navbar scroll up visible */
-
 var header  = document.getElementById('site-header');
 var spacer  = document.getElementById('header-spacer');
 var ticking = false;
@@ -37,6 +67,9 @@ window.addEventListener('scroll', function () {
 
 window.addEventListener('load',   syncSpacer);
 window.addEventListener('resize', syncSpacer);
+
+
+
 
 /* ---------- FUNCTIONS ---------- */
 
