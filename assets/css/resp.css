@@ -1,0 +1,687 @@
+ /* RESPONSIVE VIEW */
+
+
+
+ @media(min-width:1200px){
+  .catering-main-section .container{
+       max-width: 1140px;
+   }
+}
+
+
+@media(min-width:1500px){
+  .catering-main-section .container{
+      max-width: 1440px;
+  }
+}
+   
+
+
+
+  
+      
+@media (max-width:1500px)
+{
+  .page-wrapper .video-wrapper video {
+        height: 75dvh;
+  }
+  .page-wrapper .foodSection {
+    padding: 75px 0;
+  }
+  .page-wrapper h1 {
+    font-size: 60px;
+  }
+  .page-wrapper .foodContent p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .page-wrapper .orderBtn {
+    font-size: 18px; 
+    padding: 6px 25px;
+  }
+  .page-wrapper h2 {
+    font-size: 55px;
+    margin-bottom: 5px;
+  }
+  .page-wrapper .onlineSection {
+  padding: 75px 0;
+  }
+  .page-wrapper .carouselBg {
+  min-height: 530px;
+  }
+  .page-wrapper .carouselSection h2 {
+  font-size: 45px;
+  }
+  .page-wrapper .carousel-indicators li {
+  width: 15px;
+  height: 15px; 
+  }
+  .page-wrapper .carouselCenter .owl-dots {
+  margin-top: 30px;
+  }
+  .page-wrapper .owl-nav {
+  top: 15%;
+  }
+  .page-wrapper .reviewContent h3 {
+  font-size: 22px;
+  }
+  .page-wrapper blockquote {
+  font-size: 15px;
+  font-weight: 600;
+  }
+.page-wrapper .reviewContent p {
+font-size: 14px;
+margin-bottom: 5px;
+}
+.page-wrapper .locationContents p {
+font-size: 16px;
+}
+
+
+
+.main-heading h1{
+  font-size: 55px;
+}
+.juice-section h2 {
+  font-size: 26px;
+}
+.remedy-btn{
+  font-size: 18px;
+  padding: 13px 40px;
+}
+
+}
+      
+          @media (max-width:1199px)
+          {
+        .page-wrapper .video-wrapper video {
+                  height: 65dvh;
+            }
+
+            .page-wrapper .play-btn {
+    left: 15px;
+}
+.page-wrapper .mute-btn {
+    left: 70px;
+}
+            .page-wrapper .play-btn, .page-wrapper .mute-btn{font-size: 35px;}
+            .controls button {
+                  width: 30px;
+          height: 30px;
+              font-size: 30px;
+            }
+            .page-wrapper .headerContent {
+              padding: 15px 10px;
+            }
+            .page-wrapper p {
+              font-size: 18px;
+            }
+            .page-wrapper .foodSection {
+            padding: 50px 0;
+        }
+        .page-wrapper .controls {
+          bottom: 0;
+        }
+        .page-wrapper .logoImg {
+        width: 60px;
+    }
+    .page-wrapper h1 {
+            font-size: 50px;
+            margin-bottom: 0;
+        }
+        .page-wrapper h2 {
+          font-size: 45px;
+        }
+        .page-wrapper .foodContent p {
+          font-size: 20px;
+        }
+        .page-wrapper .orderBtn {
+            font-size: 16px;
+            padding: 4px 15px;
+        }
+        .page-wrapper .carouselSection h2 {
+            font-size: 40px;
+        }
+          .page-wrapper .mapSection {
+        padding-left: 15px;
+    }
+    .page-wrapper .locationContents p span {
+          font-size: 25px;
+    }
+    .page-wrapper .locationContents p {
+      font-size: 15px;
+        letter-spacing: 0;
+    }
+    .page-wrapper .maps iframe {
+      height: 420px;
+    }
+    .page-wrapper .socialSection {
+          padding: 50px 0;
+    }
+    .page-wrapper .contact-icon {
+          width: 30px;
+        height: 30px;
+    }
+    .page-wrapper .socialSection .fa {
+      font-size: 20px;
+    }
+    .page-wrapper h3 {
+      font-size: 23px;
+    }
+    .page-wrapper .reviewContent h3 {
+        font-size: 20px;
+    }
+    .page-wrapper .review-text {
+      width: 90%;
+    }
+    .page-wrapper .review-text i {
+    width: 20px;
+    height: 20px;
+    font-size: 20px; 
+}
+.page-wrapper .owl-nav button span {
+  font-size: 40px;
+}
+.page-wrapper blockquote {
+    height: 70px; 
+}
+.main-nav .navbar-nav .nav-link, .main-nav .navbar-nav .dropdown-toggle{
+  padding: 14px 10px !important;
+  font-size: 12px;
+}
+.main-heading h1 {
+  font-size: 50px;
+}
+.remedy-btn {
+  font-size: 18px;
+  padding: 12px 36px;
+}
+.juice-section h2 {
+  font-size: 23px;
+}
+.catering-btn{
+    padding: 12px 30px;
+    font-size: 21px;
+}
+          }
+      
+          @media (max-width:991px)
+          {
+            .catering-para p {
+              font-size: 14px;
+            }
+            .page-wrapper   #mute {
+                  width: 35px;
+          height: 35px;
+            }
+            .page-wrapper .headerContent  {
+                  padding: 15px 10px;
+            }
+            .page-wrapper p {
+            font-size: 17px;
+            line-height: 1.3;
+        }
+            .page-wrapper .logoImg {
+            width: 50px;
+        }
+        .page-wrapper h1 {
+            font-size: 40px; 
+        }
+        .page-wrapper h2 {
+            font-size: 38px;
+        }
+        .page-wrapper .foodContent p {
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+        .page-wrapper .carouselBg {
+            min-height: 400px;
+        }
+        .page-wrapper .carouselSection h2 {
+            font-size: 35px;
+        }
+        .page-wrapper .carousel-indicators li {
+            width: 12px;
+            height: 12px;
+        }
+        .page-wrapper .carouselSection h2 {
+            font-size: 30px;
+        } 
+        .page-wrapper .owl-nav {
+            position: absolute;
+        top: unset;
+        bottom: 40px;
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        right: 0;
+    }
+    .page-wrapper .reviewSection {
+      padding: 75px 0;
+    }
+    .page-wrapper .reviewContent h3 {
+        font-size: 18px;
+    }
+    .page-wrapper .review-text {
+        width: 100%;
+    }
+    .page-wrapper .carouselCenter .owl-dots {
+        margin-top: 60px;
+    }
+    .page-wrapper .owl-nav button span {
+        font-size: 28px;
+    }
+    .page-wrapper .review-text i {
+        width: 25px;
+        height: 25px;
+        font-size: 25px;
+    }
+    .page-wrapper .maps iframe {
+        height: 350px;
+    }
+    .page-wrapper .locationContents {
+    padding: 0 0px;
+}
+.page-wrapper .locOne {
+    width: 42%;
+}
+.page-wrapper .locOne.two {
+    width: 50%;
+}
+.main-heading h1 {
+  font-size: 45px;
+}
+.juice-section h2 {
+  font-size: 20px;
+}
+.menu-item span {
+  width: 20px;
+}
+.menu-item span {
+  width: 30px;
+}
+.juice-content h3 {
+  font-size: 16px;
+}
+p {
+  font-size: 18px;
+}
+.catering-food-image-2{
+  margin-top: 25px;
+}
+.main-nav .social-icons {
+  display: none !important;
+}
+.main-nav .navbar-nav .nav-link {
+  padding: 14px 10px !important;
+        font-size: 12px;
+        letter-spacing: 0;
+}
+          }
+      
+
+
+
+
+
+          @media (max-width:767px)
+          {
+
+            .juice-content p {
+              font-size: 13px;
+            }
+            .header-main-section {
+              padding: 150px 0 100px;
+            }
+
+.logo-wrap {
+  position: absolute;
+  left: 5px;
+  z-index: 2;
+}
+.logo-wrap img {
+  width: 150px;
+}
+.main-nav .navbar {
+  justify-content: end !important;
+  padding: 6px 0;
+}
+.social-icons-holder.mobile {
+  display: flex !important;
+}
+button:focus {
+  outline: unset;
+}
+#site-header.scrolled .logo-wrap {
+  padding: 0;
+} 
+
+            .page-wrapper .controls {
+              bottom: 0;
+            }
+            .page-wrapper .controls button {
+              width: 20px;
+              height: 20px;
+              font-size: 20px;
+              line-height: 1;
+          }
+          .page-wrapper   #mute {
+              width: 30px;
+              height: 30px;
+          }
+              .page-wrapper p {
+              font-size: 16px;
+          }
+              .page-wrapper .headerContent {
+              padding: 10px 10px;
+          }
+          .page-wrapper .foodSection .row {
+            display: flex;
+            flex-direction: column-reverse;
+          }
+          .page-wrapper .foodContent {
+            margin-bottom: 50px;
+          }
+          .page-wrapper .gallery .bigImg {
+                grid-row-start: 1;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+          }
+          .page-wrapper .gallery { 
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto); 
+    }
+    .page-wrapper .reviewSection {
+        padding: 50px 0;
+    }
+    .page-wrapper .reviewContent p { 
+        font-weight: 600;
+    }
+    .page-wrapper blockquote {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .page-wrapper .review-text i.quote-left {
+      align-self: start;
+    }
+    .page-wrapper .review-text i.quote-right {
+      align-self: end;
+    }
+    .page-wrapper .review-text i {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+    }
+    .page-wrapper .locationContents {
+        padding: 50px 0px;
+    }
+    .page-wrapper .maps iframe {
+        height: 300px;
+    }
+    .cateringinquiry-main-section h1 {
+      font-size: 26px;
+    }
+    .parties-para p {
+      width: 100%;
+    }
+    .catering-food-image.food-2{
+      margin-bottom: 23px;
+    }
+    .catering-food-image-2{
+      margin: 23px auto;
+    }
+    .meal-text p {
+      font-size: 14px;
+      width: 90%;
+      font-weight: 300;
+    }
+    .remedy-btn {
+      font-size: 15px;
+      padding: 8px 15px;
+  }
+  .navbar-nav {
+    text-align: left;
+    align-items: start !important;
+  }
+.navbar-nav  .nav-item {
+    width: 100%;
+  }
+  .main-nav .navbar-nav .nav-link {
+    padding: 4px 10px !important;
+  }
+  .nav-link::before {
+    bottom: 0;
+    border-bottom: 1px solid var(--white-color);
+  }
+  .remedy-main-section {
+    padding: 150px 0 0;
+  }
+  .remedy-double-text {
+    gap: 30px;
+  }
+  .meal-main-section {
+    padding: 125px 0 100px;
+  }
+  .food-main-section {
+    padding: 150px 0 100px;
+  }
+#naurishMenu p {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 1.3;
+}
+.nav-pills {
+  justify-content: center;
+}
+.food-double-text {
+  margin: 40px auto 0px;
+}
+.drinks-main-section {
+  padding: 150px 0;
+}
+p {
+  font-size: 14px;
+}
+.catering-main-section {
+  padding: 150px 0;
+}
+.cateringinquiry-main-section {
+  padding: 150px 0;
+}
+          }
+      
+          @media (max-width:575px)
+          {
+            .catering-para p {
+              font-size: 13px;
+              line-height: 1.3;
+          }
+            .cateringinquiry-main-section {
+              padding: 125px 0;
+          }
+            .food-main-section {
+              padding: 125px 0 100px;
+          }
+            .page-wrapper .play-btn, .page-wrapper .mute-btn {
+              font-size: 25px;
+          }
+          .page-wrapper .play-btn {
+            left: 30px;
+        }
+        .play-btn, .mute-btn {
+          width: 30px;
+          height: 30px;
+        }
+                .page-wrapper .gallery {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 150px);
+        }
+            .page-wrapper h1 {
+              font-size: 36px;
+            }
+                .controls button {
+              width: 15px;
+              height: 15px;
+              font-size: 15px;
+              line-height: 1;
+          }
+          .page-wrapper   #mute {
+              width: 20px;
+              height: 20px;
+          }
+              .page-wrapper p {
+              font-size: 15px;
+              letter-spacing: 0px; 
+          }
+          .page-wrapper .logoImg {
+            width: 40px;
+            margin-bottom: 10px;
+        }
+        .page-wrapper .foodContent p {
+            font-size: 16px;
+            letter-spacing: 0px;
+        }
+        .page-wrapper .orderBtn {
+            font-size: 14px;
+            padding: 4px 10px;
+        }
+        .page-wrapper .foodSection {
+            padding: 35px 0 0px;
+        }
+        .page-wrapper .foodContent { 
+        margin-bottom: 35px;
+    }
+    .page-wrapper h2 {
+            font-size: 32px;
+        }
+        .page-wrapper .carouselBg {
+            min-height: 350px;
+        }
+        .page-wrapper .carousel-item::after {
+          background: #0000008d;
+        }
+        .page-wrapper     .carousel-control-prev {
+        left: 40%;
+        top: unset;
+        bottom: 55px;
+    }
+    .page-wrapper .carousel-control-next {
+          top: unset;
+        bottom: 55px;
+        right: 40%;
+    }
+    .page-wrapper .carousel-control-next-icon,.page-wrapper  .carousel-control-prev-icon {
+      width: 15px;
+      height: 15px;
+    }
+        .page-wrapper .carouselSection h2 {
+            font-size: 25px;
+            letter-spacing: 0px;
+        }
+        .page-wrapper .review-text i {
+          display: none;
+        }
+        .page-wrapper .reviewContent h3 {
+        font-size: 16px;
+    }
+    .page-wrapper .reviewContent p {
+      margin-bottom: 0;
+    }
+    .page-wrapper blockquote {
+      margin-top: 15px;
+      padding: 0 0px;
+    }
+    .page-wrapper .owl-nav {
+      bottom: 25px;
+    }
+    .page-wrapper .owl-nav button span {
+        font-size: 25px;
+    }
+    .page-wrapper .carouselCenter .owl-dots {
+        margin-top: 30px;
+    }
+    .page-wrapper .locOne, .page-wrapper .locOne.two {
+    width: 100%;
+}
+.page-wrapper .maps iframe {
+        height: 250px;
+    }
+    .page-wrapper .socialSection {
+        padding: 40px 0;
+    }
+    .page-wrapper .socialSection h3 {
+      font-size: 20px;
+    }
+    .page-wrapper .lightbox-image {
+        width: 100%;
+        max-height: 100%;
+    }
+    .page-wrapper .lightbox-btn, #close {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .page-wrapper .lightbox-image-wrapper {
+        padding: 2px;
+    }
+    .page-wrapper blockquote {
+        height: 120px;
+    }
+    .page-wrapper .owl-nav {
+        bottom: 45px;
+    }
+    .main-heading h1 {
+      font-size: 33px;
+  }
+  .menu-item span {
+    width: 20px;
+    font-size: 14px;
+}
+.juice-section h2 {
+  font-size: 17px;
+}
+.meal-btn{
+  padding: 10px 25px;
+}
+.meal-image img {
+  height: 340px;
+}
+.navbar .contact-icon {
+  width: 20px;
+  height: 20px;
+}
+.headerContent p {
+  font-size: 14px;
+}
+.onlineSection p {
+  margin: 25px 0 20px;
+}
+.juice-content h3 {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 500;
+}
+.juice-content p { 
+  text-align: left;
+}
+.juice-section {
+  padding: 40px 40px 40px 25px;
+}
+.header-main-section {
+  padding: 100px 0 100px;
+}
+.header-main-section h1 {
+  margin-bottom: 40px;
+}
+          }
+          
+          @media (max-width:375px)
+          {
+      
+          }
+      
