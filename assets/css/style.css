@@ -1189,6 +1189,15 @@ pointer-events:none;
   gap: 10px; 
   border: 2px solid transparent;
 }
+
+.catering-para.two p{
+  line-height: 1.1;
+  font-size: 22px;
+}
+#mealsTitle {
+  scroll-margin-top: 120px; /* adjust to match your header height */
+}
+
 .remedy-btn:hover{
   border: 2px solid var(--white-color);
 }

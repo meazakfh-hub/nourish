@@ -330,12 +330,21 @@ p {
 
           @media (max-width:767px)
           {
-
+            .meal-text {
+              margin-bottom: 50px;
+          }
             .juice-content p {
               font-size: 13px;
             }
             .header-main-section {
               padding: 150px 0 100px;
+            }
+            .catering-para.two p {
+              font-size: 18px;
+            }
+
+            #mealsTitle {
+              scroll-margin-top: 80px; /* adjust to match your header height */
             }
 
 .logo-wrap {
