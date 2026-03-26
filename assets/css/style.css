@@ -1235,9 +1235,13 @@ pointer-events:none;
   border: unset;
   padding: 15px 40px;
   font-size: 22px;
+  border: 2px solid transparent;
 }
 .catering-btn:hover{
   border: 2px solid var(--white-color);
+}
+.catering-btn:hover {
+  animation: unset;
 }
 .catering-content{
   text-align: start;
