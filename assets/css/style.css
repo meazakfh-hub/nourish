@@ -177,7 +177,9 @@ html {
   transition: max-height 0.5s linear, visibility 0s linear 0s;
 }
 
-
+.nav-link.boldNav {
+  font-weight: 700 !important;
+}
 /* Dropdowns */
 .dropdown-menu {
   background: var(--green);
@@ -1390,7 +1392,7 @@ pointer-events:none;
   margin-bottom: 20px;
 }
 .food-double-text{
-  margin: 40px auto 50px;
+  margin: 40px auto 0px;
 }
 .food-heading{
   text-transform: none;
@@ -1430,6 +1432,29 @@ pointer-events:none;
   margin: -20px auto 30px;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.menuButton.remedy-double-text {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.menuButton .nav-pills{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.menuButton .nav-pills .one{ 
+  text-align: right;
+  flex-basis: 50%;
+}
+.menuButton .nav-pills .two{ 
+  text-align: left;
+  flex-basis: 50%;
 }
 
 /* Parties Page End */

@@ -687,6 +687,13 @@ p {
 .header-main-section h1 {
   margin-bottom: 40px;
 }
+.menuButton .nav-pills .two, .menuButton .nav-pills .one {
+  text-align: center;
+  flex-basis: 100%;
+}
+.menuButton .nav-pills {
+  flex-wrap: wrap;
+}
           }
           
           @media (max-width:375px)
